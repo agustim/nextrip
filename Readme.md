@@ -38,3 +38,12 @@ add in package.json
   },
 ...
 ```
+Create netlify.toml
+```
+# netlify.toml 
+
+[build]
+  command = "yarn run deploy"
+  publish = "out"
+#  functions = "lambda"
+```
