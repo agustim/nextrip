@@ -2,7 +2,7 @@ function IndexPage() {
     return (
             <div>
                 <p>
-                    ¡Este es mi primer deploy con Next.js!
+                    Next info
                 </p>
             </div>
     )
