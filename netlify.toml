@@ -1,6 +1,6 @@
 # netlify.toml 
 
 [build]
-  command = "yarn run deploy"
+  command = "npm run deploy"
   publish = "out"
 #  functions = "lambda"
