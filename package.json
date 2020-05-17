@@ -5,9 +5,9 @@
   "license": "MIT",
   "scripts": {
     "dev": "next",
-    "build": "next build && npm run lambda:build",
+    "build": "next build",
     "export": "next export",
-    "deploy": "npm run build && npm run export",
+    "deploy": "npm run build && npm run export && npm run lambda:build",
     "start": "next start",
     "lambda:build": "netlify-lambda build lambda",
     "lambda:test": "netlify-lambda serve lambda",
